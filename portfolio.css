@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+img{
+  width:300;
+  height:300;
+    border-radius: 50%;
+    
+}
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#welcome{
+     padding:70px;
+    text-align:center;
+}
+h1{
+  
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#about{
+    padding:20px;
+    font-size:42;
+    background:pink;
+}
+.menu{
+  position: fixed;
+   list-style: none;
+   width: 100%;
+    font-family:cursive;
+    top:0;
+    right:0px;
+    cursor: pointer;
+    float: right;
+  background-color:black;
+
+
+}
+.menu a{
+    
+    color:white !important;
+}
+
+
+.links{
+    color:crimson;
+    display: inline;
+    width: 100%;
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+   .links:hover{
+    
+  background-color: rgb(160, 113, 113);
+
+}
+
+#Mywork a, #References a{
+    font-size: 30px;
+    
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a {
+ text-decoration: hotpink;
+}
+
+.photo1 {
+  width: 300px;
+  height: 350px;
+  padding: 50px
+}
+.photo2 {
+  width: 300px;
+  height: 350px;
+  padding: 50px;
+}
+#inspiration {
+  background-color:beige;
+}
+.photo1:hover {
+  transform: scale(0.9);
+}
+.photo2:hover {
+  transform: scale(0.9);
+}
+.line {
+  height: 6px;
+  background-color: #000;
+  width: 70px;
+  margin: 8px auto;
+}
+p {
+  max-width: 450px;
+  margin: 25px auto;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.active {
+  background-color: greenyellow;
+}
